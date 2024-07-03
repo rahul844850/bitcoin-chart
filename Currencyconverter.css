@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.Main-div{
+    border: 10px double red;
+    display: flex;
+}
+.converter-1 {
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+ 
+}
+.converter-2{
+    background-color: whitesmoke;
+    padding: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;   
+}
+
+.input-group label {
+    margin-right: 10px;
+}
+
+.input-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.input-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.converter-btn {
+    padding: 8px 16px;
+    background-color: #ff7700;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 35%;
+    cursor: pointer;
+}
+.swapbtn{
+    background-color: rgba(0, 0, 0, 0.573);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50%;
+    cursor: pointer;
+    width: 30px;
+}
+.resultdiv{
+    font-weight: 500;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+
